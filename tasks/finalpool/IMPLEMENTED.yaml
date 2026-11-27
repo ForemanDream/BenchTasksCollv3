@@ -1,0 +1,45 @@
+# Final Pool — all tasks marked **implemented** in the Notion "Task Tracker"
+# (database "Task Status Table", parent page "Task Tracker") as of 2026-11-28 20:31 UTC.
+# Source of truth: live Notion Task Tracker read-back (20:06:41 UTC final live read).
+# 45 most-recently-added tasks (created 2026-11-27 18:04 UTC batch): 27 implemented / 18 implementing.
+# NOTE: during this run the GitHub Commits & Pull-Requests APIs were consistently BLOCKED
+# ("Unable to access the requested resource" on every list_commits/get_commit/list_pull_requests/
+# get_pull_request), code search returned total_count=0 (incomplete index), and GET /contents/tasks/<task>
+# on developer branches returned 404 / empty SHA-nil listings under a non-enumerable layout for this
+# token — so per-task implementation content could not be bulk-downloaded; the implemented SET is
+# pinned here and in tasks/finalpool/MANIFEST.json.
+
+generated_utc: "2026-11-28T20:31:00Z"
+task_tracker_page: "4250eb8c-4b40-8179-9610-f9c25959e2ab"   # "Task Tracker"
+task_status_database: "4250eb8c-4b40-8167-aa92-ef36c0c8acbb"  # "Task Status Table"
+new_tasks_batch_utc: "2026-11-27T18:04:00Z"
+counts: {new_tasks: 45, implemented: 27, implementing: 18}
+
+implemented:
+  - {branch: fan-dev,         task: coupon-manager,         page_id: "4250eb8c-4b40-8153-8014-e7474facbf0a"}
+  - {branch: gyy,             task: blog-engine,            page_id: "4250eb8c-4b40-813d-ac75-dc507b4a5c32"}
+  - {branch: gyy,             task: cms-builder,            page_id: "4250eb8c-4b40-8152-8d3a-c23307a3cb73"}
+  - {branch: gyy,             task: content-scheduler,      page_id: "4250eb8c-4b40-8126-b65f-c9b19db1b4ed"}
+  - {branch: haoze,           task: video-trimmer,          page_id: "4250eb8c-4b40-81ff-afc8-fc68ff648fce"}
+  - {branch: jl_dev,          task: canvas-grade-automation,page_id: "4250eb8c-4b40-8172-9d4d-fe708ecb5aab"}
+  - {branch: junteng_dev,     task: booking-system,         page_id: "4250eb8c-4b40-817e-a0b0-f9822f4a905b"}
+  - {branch: junteng_dev,     task: calendar-sync,          page_id: "4250eb8c-4b40-8122-b4ae-c68ee87d55a7"}
+  - {branch: junteng_dev,     task: contact-manager,        page_id: "4250eb8c-4b40-81f4-ad21-f8119c149b1c"}
+  - {branch: junxian_dev,     task: translation-api,         page_id: "4250eb8c-4b40-8140-9e20-e34697abbe8d"}
+  - {branch: lueyang-dev,     task: activity-logger,        page_id: "4250eb8c-4b40-8119-85c2-f6b948c0ff9b"}
+  - {branch: lueyang-dev,     task: crm-system,             page_id: "4250eb8c-4b40-8187-ac20-db6a6f765828"}
+  - {branch: lueyang-dev,     task: deal-manager,           page_id: "4250eb8c-4b40-81ab-88b7-d8f131e0c2c3"}
+  - {branch: lv,              task: chat-bot,               page_id: "4250eb8c-4b40-81fc-acbd-e3fc52b7495f"}
+  - {branch: lv,              task: voice-processor,        page_id: "4250eb8c-4b40-8137-bade-ed817bb1f6a2"}
+  - {branch: ruige,           task: canvas-automation,     page_id: "4250eb8c-4b40-8122-8b4e-df1a8cfed383"}
+  - {branch: ruige,           task: data-analytics,         page_id: "4250eb8c-4b40-81e3-8bf1-d27eff9f392a"}
+  - {branch: wenshuo-dev,     task: image-processor,        page_id: "4250eb8c-4b40-81e2-97ac-fdb4056016b1"}
+  - {branch: xiaochen_dev,    task: backup-utility,         page_id: "4250eb8c-4b40-812d-ae04-ea75e79dd648"}
+  - {branch: xiaochen_dev,    task: deployment-tool,         page_id: "4250eb8c-4b40-815b-a0b9-d0ebd44e332"}
+  - {branch: xiaochen_dev,    task: monitoring-agent,      page_id: "4250eb8c-4b40-81fd-87d3-dddf3d7fffbe"}
+  - {branch: yuxuan-dev,      task: asset-optimizer,        page_id: "4250eb8c-4b40-818a-a797-fa8a1ae0e972"}
+  - {branch: yuxuan-dev,      task: content-manager,        page_id: "4250eb8c-4b40-81e1-8b3a-f4aa51c9aa3b"}
+  - {branch: yuzhen-dev,      task: alert-system,           page_id: "4250eb8c-4b40-81b0-815a-f56e3e4bdc95"}
+  - {branch: yuzhen-dev,      task: data-validator,        page_id: "4250eb8c-4b40-8126-957e-cd63460b45f2"}
+  - {branch: yuzhen-dev,      task: invoice-generator,      page_id: "4250eb8c-4b40-81df-825f-c530092be102"}
+  - {branch: zhaochen,        task: load-balancer,          page_id: "4250eb8c-4b40-815f-a79d-de6f1c61941d"}
